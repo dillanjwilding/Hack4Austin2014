@@ -1,0 +1,141 @@
+/**********************************
+GENERAL
+***********************************/
+
+body{
+	background-color: #2C559E;
+	text-decoration: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+
+h1{
+	font-family:'bubblegum_sansregular', helvetica;
+	color:#ffffff;
+	text-align: center;
+	margin-top: 100px;
+}
+
+#first_row{
+	float: left;
+}
+
+#wrapper{
+	text-decoration: none;
+}
+
+#gallery{
+	
+}
+
+/**********************************
+PAGE: PORTFOLIO
+***********************************/
+
+#gallery {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  color: #ffffff;
+}
+
+#gallery li {
+  float: left;
+  width: 20%;
+  margin: 2.5%;
+  color: #ffffff;
+}
+
+#gallery li a p {
+  margin: 0;
+  padding: 5%;
+  font-size: 0.75em;
+  color: #ffffff;
+}
+
+/**********************************
+PAGE: PORTFOLIO PRESSED STATE
+***********************************/
+
+#octopus:hover{ 
+	border:0px solid #214078; 
+	-moz-box-shadow: 0px 3px 1px #000;
+	-webkit-box-shadow: 0px 3px 1px #000;
+	box-shadow: 0px 3px 1px #000;
+	-moz-border-radius:190px;
+	-webkit-border-radius:190px;
+	border-radius:190px;
+	}
+	
+#shark:hover{ 
+	border:0px solid #214078; 
+	-moz-box-shadow: 0px 3px 1px #000;
+	-webkit-box-shadow: 0px 3px 1px #000;
+	box-shadow: 0px 3px 1px #000;
+	-moz-border-radius:190px;
+	-webkit-border-radius:190px;
+	border-radius:190px;
+	}
+	
+#sub:hover{ 
+	border:0px solid #214078; 
+	-moz-box-shadow: 0px 3px 1px #000;
+	-webkit-box-shadow: 0px 3px 1px #000;
+	box-shadow: 0px 3px 1px #000;
+	-moz-border-radius:190px;
+	-webkit-border-radius:190px;
+	border-radius:190px;
+	}
+	
+#whale:hover{ 
+	border:0px solid #214078; 
+	-moz-box-shadow: 0px 3px 1px #000;
+	-webkit-box-shadow: 0px 3px 1px #000;
+	box-shadow: 0px 3px 1px #000;
+	-moz-border-radius:190px;
+	-webkit-border-radius:190px;
+	border-radius:190px;
+	}
+
+#starfish:hover{ 
+	border:0px solid #214078; 
+	-moz-box-shadow: 0px 3px 1px #000;
+	-webkit-box-shadow: 0px 3px 1px #000;
+	box-shadow: 0px 3px 1px #000;
+	-moz-border-radius:190px;
+	-webkit-border-radius:190px;
+	border-radius:190px;
+	}
+
+#boat:hover{ 
+	border:0px solid #214078; 
+	-moz-box-shadow: 0px 3px 1px #000;
+	-webkit-box-shadow: 0px 3px 1px #000;
+	box-shadow: 0px 3px 1px #000;
+	-moz-border-radius:190px;
+	-webkit-border-radius:190px;
+	border-radius:190px;
+	}
+	
+#fish:hover{ 
+	border:0px solid #214078; 
+	-moz-box-shadow: 0px 3px 1px #000;
+	-webkit-box-shadow: 0px 3px 1px #000;
+	box-shadow: 0px 3px 1px #000;
+	-moz-border-radius:190px;
+	-webkit-border-radius:190px;
+	border-radius:190px;
+	}
+
+#turtle:hover{ 
+	border:0px solid #214078; 
+	-moz-box-shadow: 0px 3px 1px #000;
+	-webkit-box-shadow: 0px 3px 1px #000;
+	box-shadow: 0px 3px 1px #000;
+	-moz-border-radius:190px;
+	-webkit-border-radius:190px;
+	border-radius:190px;
+	}

@@ -1,0 +1,43 @@
+2014/05/31 10:58:38 [error] [exception.CDbException] exception 'CDbException' with message 'CDbConnection failed to open the DB connection: could not find driver' in /var/yii/framework/db/CDbConnection.php:382
+Stack trace:
+#0 /var/yii/framework/db/CDbConnection.php(330): CDbConnection->open()
+#1 /var/yii/framework/db/CDbConnection.php(308): CDbConnection->setActive(true)
+#2 /var/yii/framework/base/CModule.php(387): CDbConnection->init()
+#3 /var/yii/framework/base/CModule.php(103): CModule->getComponent('db')
+#4 /var/yii/framework/gii/generators/model/ModelCode.php(60): CModule->__get('db')
+#5 /var/yii/framework/web/CFormModel.php(39): ModelCode->init()
+#6 /var/yii/framework/gii/CCodeGenerator.php(153): CFormModel->__construct()
+#7 /var/yii/framework/gii/CCodeGenerator.php(63): CCodeGenerator->prepare()
+#8 /var/yii/framework/web/actions/CInlineAction.php(49): CCodeGenerator->actionIndex()
+#9 /var/yii/framework/web/CController.php(308): CInlineAction->runWithParams(Array)
+#10 /var/yii/framework/web/CController.php(286): CController->runAction(Object(CInlineAction))
+#11 /var/yii/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#12 /var/yii/framework/web/CWebApplication.php(282): CController->run('index')
+#13 /var/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('gii/model/index')
+#14 /var/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#15 /var/www/hack4austin/apie/index.php(13): CApplication->run()
+#16 {main}
+REQUEST_URI=/hack4austin/apie/index.php?r=gii/model/index
+HTTP_REFERER=http://localhost/hack4austin/apie/index.php?r=gii/default/index
+---
+2014/05/31 11:00:44 [error] [exception.CDbException] exception 'CDbException' with message 'CDbConnection failed to open the DB connection: SQLSTATE[42000] [1044] Access denied for user 'apie_user'@'localhost' to database 'testdrive'' in /var/yii/framework/db/CDbConnection.php:382
+Stack trace:
+#0 /var/yii/framework/db/CDbConnection.php(330): CDbConnection->open()
+#1 /var/yii/framework/db/CDbConnection.php(308): CDbConnection->setActive(true)
+#2 /var/yii/framework/base/CModule.php(387): CDbConnection->init()
+#3 /var/yii/framework/base/CModule.php(103): CModule->getComponent('db')
+#4 /var/yii/framework/gii/generators/model/ModelCode.php(60): CModule->__get('db')
+#5 /var/yii/framework/web/CFormModel.php(39): ModelCode->init()
+#6 /var/yii/framework/gii/CCodeGenerator.php(153): CFormModel->__construct()
+#7 /var/yii/framework/gii/CCodeGenerator.php(63): CCodeGenerator->prepare()
+#8 /var/yii/framework/web/actions/CInlineAction.php(49): CCodeGenerator->actionIndex()
+#9 /var/yii/framework/web/CController.php(308): CInlineAction->runWithParams(Array)
+#10 /var/yii/framework/web/CController.php(286): CController->runAction(Object(CInlineAction))
+#11 /var/yii/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#12 /var/yii/framework/web/CWebApplication.php(282): CController->run('index')
+#13 /var/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('gii/model/index')
+#14 /var/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#15 /var/www/hack4austin/apie/index.php(13): CApplication->run()
+#16 {main}
+REQUEST_URI=/hack4austin/apie/index.php?r=gii/model/index
+---
